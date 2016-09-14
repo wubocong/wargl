@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "circle", "war0\war0.vcxproj", "{FE329958-4C51-49A5-9753-6E4D23A276A6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Circle", "Circle\Circle.vcxproj", "{FE329958-4C51-49A5-9753-6E4D23A276A6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dinosaur", "dinosaur\dinosaur.vcxproj", "{1A388A5B-1068-47FF-9A5B-60F4E101C42B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dinosaur", "Dinosaur\Dinosaur.vcxproj", "{1A388A5B-1068-47FF-9A5B-60F4E101C42B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pointInPolygon", "pointInPolygon\pointInPolygon.vcxproj", "{87451C77-D56A-4B81-A6AA-0F0D13B4A7B7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PointInPolygon", "PointInPolygon\PointInPolygon.vcxproj", "{87451C77-D56A-4B81-A6AA-0F0D13B4A7B7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cut", "cut\cut.vcxproj", "{27F7AEDB-E13E-4535-9959-8A5FE5B6DF42}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RectangleCutLine", "RectangleCutLine\RectangleCutLine.vcxproj", "{27F7AEDB-E13E-4535-9959-8A5FE5B6DF42}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PolygonCutLine", "PolygonCutLine\PolygonCutLine.vcxproj", "{15736D86-8982-409C-BCA8-F69E404765BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,14 @@ Global
 		{27F7AEDB-E13E-4535-9959-8A5FE5B6DF42}.Release|x64.Build.0 = Release|x64
 		{27F7AEDB-E13E-4535-9959-8A5FE5B6DF42}.Release|x86.ActiveCfg = Release|Win32
 		{27F7AEDB-E13E-4535-9959-8A5FE5B6DF42}.Release|x86.Build.0 = Release|Win32
+		{15736D86-8982-409C-BCA8-F69E404765BF}.Debug|x64.ActiveCfg = Debug|x64
+		{15736D86-8982-409C-BCA8-F69E404765BF}.Debug|x64.Build.0 = Debug|x64
+		{15736D86-8982-409C-BCA8-F69E404765BF}.Debug|x86.ActiveCfg = Debug|Win32
+		{15736D86-8982-409C-BCA8-F69E404765BF}.Debug|x86.Build.0 = Debug|Win32
+		{15736D86-8982-409C-BCA8-F69E404765BF}.Release|x64.ActiveCfg = Release|x64
+		{15736D86-8982-409C-BCA8-F69E404765BF}.Release|x64.Build.0 = Release|x64
+		{15736D86-8982-409C-BCA8-F69E404765BF}.Release|x86.ActiveCfg = Release|Win32
+		{15736D86-8982-409C-BCA8-F69E404765BF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

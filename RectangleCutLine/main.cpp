@@ -191,7 +191,7 @@ int main(int argc, char** argv) {
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(800, 600);
 	glutInitWindowPosition(500, 200);
-	glutCreateWindow("War Opengl Cut");
+	glutCreateWindow("War OpenGL Cut");
 
 	myInit();
 

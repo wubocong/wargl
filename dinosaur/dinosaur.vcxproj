@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1A388A5B-1068-47FF-9A5B-60F4E101C42B}</ProjectGuid>
-    <RootNamespace>dinosaur</RootNamespace>
+    <RootNamespace>Dinosaur</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,8 +110,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main-low.cpp" />
-    <ClCompile Include="main-war.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
